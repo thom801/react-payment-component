@@ -1,0 +1,54 @@
+.PaymentForm
+  background: white
+  box-shadow: 0 0 50px rgba(0,0,0,0.3)
+  border-radius: 6px
+  padding: 100px 30px 30px
+  width: 460px
+  position: relative
+  top: -90px
+  z-index: 5
+
+  .formRow
+    margin-top: 24px
+
+    &.formRowCells
+      display: flex
+      justify-content: space-between
+
+      > span:not(:last-child)
+        margin-right: 14px
+
+    .formLabel
+      font-size: 12px
+      margin: 0 0 8px
+      color: #555
+      font-weight: 500
+
+    input[type="text"], input[type="password"], select
+      background: white
+      font-size: 16px
+      padding: 12px 14px
+      border-radius: 4px
+      border: solid 1px #ccc
+      width: 100%
+
+    select
+      -webkit-appearance: none
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAeCAYAAABuUU38AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUxJREFUeNrM1sEJwkAQBdCsngXPHsQO9O5FS7AAMVYgdqAd2IGCDWgFnryLFQiCZ8EGnJUNimiyM/tnk4HNEAg/8y6ZmMRVqz9eUJvRaSbvutCZ347bXVJy/ZnvTmdJ862Me+hAbZCTs6GHpyUi1tTSvPnqTpoWZPUa7W7ncT3vK4h4zVejy8QzM3WhVUO8ykI6jOxoGA4ig3BLHcNFSCGqGAkig2yqgpEiMsjSfY9LxYQg7L6r0X6wS29YJiYQYecemY+wHrXD1+bklGhpAhBDeu/JfIVGxaAQ9sb8CI+CQSJ+QmJg0Ii/EE2MBiIXooHRQhRCkBhNhBcEhLkwf05ZCG8ICCOpk0MULmvDSY2M8UawIRExLIQIEgHDRoghihgRIgiigBEjgiFATBACAgFgghEwSAAGgoBCBBgYAg5hYKAIFYgHBo6w9RRgAFfy160QuV8NAAAAAElFTkSuQmCC)
+      background-size: 12px
+      background-position: 90% center
+      background-repeat: no-repeat
+      padding-right: 30px
+      min-width: 120px
+
+  .purchaseButton
+    background: #4037BB
+    color: white
+    font-weight: bold
+    text-transform: uppercase
+    padding: 16px 20px
+    font-size: 20px
+    text-align: center
+    border-radius: 6px
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2)
+    cursor: pointer
