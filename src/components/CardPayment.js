@@ -90,6 +90,10 @@ class CardPayment extends React.Component {
           onExpirationMonthChange={this.onExpirationMonthChange}
           onExpirationYearChange={this.onExpirationYearChange}
         />
+
+        <p className={styles.credits}>
+          Created by <a href="https://github.com/thom801" target="_blank">Thom Allen</a>. Inspired by the original by <a href="https://github.com/jasminmif" target="_blank">jasminmif</a>.
+        </p>
       </div>
     )
   }
