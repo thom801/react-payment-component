@@ -92,7 +92,9 @@ class CardPayment extends React.Component {
         />
 
         <p className={styles.credits}>
-          Created by <a href="https://github.com/thom801" target="_blank">Thom Allen</a>. Inspired by the original by <a href="https://github.com/jasminmif" target="_blank">jasminmif</a>.
+          Created by <a href="https://github.com/thom801" target="_blank">Thom Allen</a>. 
+          View the source code <a href="https://github.com/thom801/react-payment-component" target="_blank">on Github</a>.
+          Inspired by the original by <a href="https://github.com/jasminmif" target="_blank">jasminmif</a>.
         </p>
       </div>
     )
